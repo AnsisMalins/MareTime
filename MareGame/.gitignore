@@ -1,0 +1,17 @@
+/Library/
+/Logs/
+/Temp/
+/UserSettings/
+
+# Ignore meta files of folders, but not of files.
+/Assets/**/*.meta
+!/Assets/**/*.*.meta
+
+# These assets are supposed to be referenced by name or path.
+/Assets/**/Resources/**/*.*.meta
+/Assets/StreamingAssets/**/*.*.meta
+
+/*.csproj
+/obj/
+/*.sln
+/*.vs/
